@@ -40,3 +40,5 @@ function main({ n, method }) {
       throw new Error(`Unsupported method ${method}`);
   }
 }
+const message = document.createElement(p);
+message.innerHTML = "Broken to the point of Foobar";
